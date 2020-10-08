@@ -1,1 +1,87 @@
 /* Put your style information here! */
+body {
+    padding: 40px;
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+    color: #53900F;
+    font-size: 16px;
+  }
+
+  li {
+      font-family: 'Lato', sans-serif;
+    color: #53900F;
+    font-size: 16px;
+  }
+
+  .questions li {
+    font-family: 'Lato', sans-serif;
+    color: #173c17;
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    color: #173c17;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    font-style: italic;
+    color: #173c17;
+    margin-top: 40px;
+    /* text-align: center; */
+  }
+
+  h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: cadetblue;
+  }
+
+  h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #1f6521;
+  }
+
+  h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #173c17;
+  }
+  
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .questions {
+    margin: auto;
+    width: 50%;
+    border: 2px solid #1f6521;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    background-color: #D2E1C1;
+    display: block;
+    border-radius: 25px;
+    padding: 10px;
+    color: #173c17;
+  }
+
+  .user {
+      border: 2px solid cadetblue; 
+      border-radius: 10px;
+      padding: 5px;
+  }
+
+  

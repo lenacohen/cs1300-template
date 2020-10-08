@@ -2,13 +2,158 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Microwave Personas and Storyboarding</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@200..900&family=Lora:wght@200..900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
   <body>
     <!-- TODO: put your HTML code here! -->
+    <div class="header">
+      <h1>Personas and Storyboarding for the Modern Microwave</h1>
+    </div>
+    <div class="intro">
+      <p>I use a microwave every day but recently started noticing how few of the buttons I interact with. The interface of my microwave is complex: it contains 26 buttons and provides various ways to accomplish the same tasks. 
+      </p>
+      <h3>What motivated this complex design?  Who does this design serve?  Who does this design not serve?  
+      </h3>
+      <p>To explore these questions, I observed real users interacting with the microwave interface, interviewed these users about their experiences, created personas based on these users, and illustrated a storyboard for one of the personas.  Check out my process and results below!
+      </p>
+    </div>
+    <div class="part1">
+      <h2>The Microwave Interface
+      </h2>
+      <p>The purpose of the microwave is to quickly and easily heat food items. Most of the buttons give users various ways to control the cook time. Other buttons allow the user to stop and start cooking the cooking process, open the microwave door, and clear the remaining cook time. Several buttons carry out different actions depending on the context in which they are pressed.
+      </p>
+      <h3>Annotated sketch:
+      </h3>
+      <div class="photo">
+        <img src="Microwave.jpg" style="height:440px;"> <!--style="height:440px;"-->
+      </div>
+    </div>
+    <div class="part2">
+      <h2>User Observations and Interviews
+      </h2>
+      <p>My three housemates use the microwave nearly every day. I observed my housemates using the microwave over the course of a week. Then, I interviewed each housemate with the following questions:
+      </p>
+      <div class="questions">
+        <ol>
+          <li>Tell me about the thoughts that went through your head while you used the microwave.</li>
+          <li>How often do you use the microwave?</li>
+          <li>What is the primary reason you use the microwave?</li>
+          <li>Which buttons have you pressed when using the microwave?</li>
+          <li>Which buttons do you use most frequently?</li>
+          <li>Which buttons do you not use?</li>
+          <li>Followup: Why do you not use those buttons?</li>
+          <li>For how long do you typically heat items in the microwave?</li>
+          <li>How do you decide how long to heat an item?</li>
+          <li>How do you decide when to remove items from the microwave? </li>
+          <li>What do you think about the sound the microwave makes at the end of cook time?</li>
+          <li>What do you do while your food is heating?</li>
+          <li>How do you feel when you finish heating an item with the microwave?</li>
+        </ol>
+      </div>
+      <h3>Responses:</h3>
+      <div class="user">
+        <h3>Sarah</h3>
+        <h4>Observations</h4>
+        <ul>
+          <li>Frequency of Use: about once a day</li>
+          <li>Primary Purpose: makes and reheats a variety of items (popcorn, nachos, leftovers, coffee)
+          </li>
+          <li>Start method: presses the Start/+30 seconds button 1-6 times to set and start cook time in increments of 30 seconds
+          </li>
+          <li>Stop method: always stops the microwave before the timer ends and sound plays, uses the open button to stop the timer and open the door,  and does not clear the remaining time
+          </li>
+        </ul>
+        <h4>Interview</h4>
+        <p>Sarah prioritizes time and convenience. Regardless of her desired cook time, the only buttons she uses are +30 and Open. She does not use other buttons because she does not want to take the time to figure them out. Since she is so busy, she tries to accomplish short tasks while her food is heating. Sometimes she gets impatient and takes her food out before it is fully heated. She always stops the timer early because she hates the noise at the end of the timer countdown</p>
+      </div>
+      <div class="user">
+        <h3>Alex</h3>
+        <h4>Observations</h4>
+        <ul>
+          <li>Frequency of Use: a few times per day
+          </li>
+          <li>Primary Purpose: a variety of small and large items (leftovers, butter for baking, popcorn)
+          </li>
+          <li>Start method: only uses the 1 minute Express Cook button
+          </li>
+          <li>Stop method: always stops the microwave before the timer ends and sound plays, uses the open button to stop the timer and open the door, and does not clear the remaining time
+          </li>
+        </ul>
+        <h4>Interview</h4>
+        <p>Alex feels confused by the microwave interface. She only uses the 1 minute Express Cook button, the open button, and the clear button. She avoids the other buttons due to confusion and distrust. For example,
+        </p>
+        <ul>
+          <li>She does not know how to set a cook time without Express Cook</li>
+          <li>She does not trust that the pre-programmed cook time settings will be correct, even if the button labels match her food</li>
+        </ul>
+        <p>She sits and watches the food while it heats because she is never sure exactly how long it will take to heat and needs to stop the microwave early for items that take significantly less than 1 minute. She feels bad that she is not utilizing the microwave to the best of its capabilities but feels stressed by the idea of learning about all the other buttons
+        </p>
+      </div>
+      <div class="user">
+        <h3>Ben</h3>
+        <h4>Observations</h4>
+        <ul>
+          <li>Frequency of Use: once every other day</li>
+          <li>Primary Purpose: only uses it to reheat leftovers
+          </li>
+          <li>Start method: always sets the power level to 70% and the cook time to 1:45
+          </li>
+          <li>Stop method: waits the full 1:45 and presses the open button after the timer sound goes off.  If items are not fully heated, he puts them in for another 1:45 at 70%
+          </li>
+        </ul>
+        <h4>Interview</h4>
+        <p>Ben uses the same buttons and settings every time out of force of habit. His process works well because he is always heating approximately the same quantity of leftovers. Since his process works and feels so routine, he has never wanted to try anything different. His habit of lowering the power level started in childhood when his parents told him not to heat food on the highest setting. Since he leaves items in the microwave for the full 1:45, he does other tasks around the house while waiting. He lets the timer sound go off even though he hates it so that he does not have to wait in front on the microwave
+        </p>
+      </div>
+    </div>
+    <div class="part2">
+      <h2>Personas
+      </h2>
+      <p>I used my observation and interview data to create two personas and an empathy map for each:</p>
+      <h4>Busy Belinda</h4>
+      <p>Belinda is typically in a rush when she uses the microwave and prioritizes her time over making the best food.  Belinda does not want to spend time learning how to use all the microwave settings.  She only uses a limited number of buttons she deems convenient. However, these buttons are not the most efficient choice for some microwave tasks. 
+      </p>
+      <h5>This persona is primarily inspired by Sarah, who only uses two buttons, said it would take too long to learn more, and often takes items out before they are fully heated to save time. It was partially inspired by Ben, who listens to a sound he hates so he can focus on other tasks while using the microwave.
+      </h5>
+      <div class="photo">
+        <img src="Belinda.jpg" style="height:440px;">
+      </div>
+      <h4>Nervous Nina</h4>
+      <p>Nina generally feels overwhelmed by new technology and is confused by all the buttons on the microwave. She learned a few buttons and sticks to them for every microwave task. She does not always have the knowledge to set her desired cook time, but figuring out new buttons stresses her out. She wants to figure out a few more buttons, but feels bad admitting she needs help.
+      </p>
+      <h5>This persona is primarily inspired by Alex, who expressed confusion and distrust about the microwave interface. Alex stated she did not feel confident enough to learn new buttons.
+      </h5>
+      <div class="photo">
+        <img src="Nina.jpg" style="height:440px;">
+      </div>
+    </div>
+    <div class="storyboard">
+      <h2>Storyboard</h2>
+      <p>I created a storyboard to illustrate and explore Nervous Nina's experience with the microwave</p>
+      <div class="photo"><img src="Storyboard.jpg" style="height:500px;"></div>
+    </div>
+<div class="end">
+  <h2>Key Takeaways:</h2>
+  <h3>Several key insights emerge from the data, personas, and storyboard. These insights could inform a future redesign of the microwave interface.
+  </h3>
+  <ul>
+    <li>Each interviewee used a slightly different process to accomplish the same task
+    </li>
+    <li>Each process involved relatively few buttons
+    </li>
+    <li>Users are overwhelmed or confused by the buttons they do not use
+    </li>
+    <li>Users dislike the sound  that plays at the end of cook time
+    </li>
+    <li>The interface provides users with more control and specificity than they want
+    </li>
+  </ul>
+</div>
   </body>
 </html>
